@@ -1,0 +1,13 @@
+:root, body, html{
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100hv;
+  margin: 0px;
+}
+
+#background-image{
+  width: 100vw;
+  height: 100hv;
+  position: relative;
+}
+
