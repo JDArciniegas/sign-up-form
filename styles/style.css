@@ -15,6 +15,27 @@ html {
   height: 100vh;
 }
 
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  z-index: 10;
+  width: 50%;
+}
+
+.group-inputs {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.group-inputs > input {
+  width: 40%;
+}
+
+
 #background-image {
   max-width: 100vw;
   max-height: 100hv;
@@ -26,12 +47,4 @@ html {
   opacity: 0.50;
 }
 
-form {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  z-index: 10;
-  width: 50%;
-}
+
