@@ -15,16 +15,16 @@
   <div class="container">
     <form action="#" method="POST">
       <div class="group-inputs">
-        <input type="text" placeholder="first-name">
-        <input type="text" placeholder="last-name">
+        <input type="text" placeholder="first-name" required title="Please enter your first name">
+        <input type="text" placeholder="last-name" required title="Please enter your first name">
       </div>
       <div class="group-inputs">
-        <input type="email" placeholder="email@email.com">
-        <input type="number" placeholder="123-456-7890">
+        <input type="email" placeholder="email@email.com" required>
+        <input type="tel" placeholder="123-456-7890" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
       </div>
       <div class="group-inputs">
-        <input type="password" placeholder="password">
-        <input type="password" placeholder="confirm password">
+        <input type="password" placeholder="password" required>
+        <input type="password" placeholder="confirm password" required>
       </div>
       <div class="group-buttons">
         <button type="submit" id="btn">Create Account</button>
