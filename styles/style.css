@@ -33,6 +33,17 @@ form {
 
 .group-inputs > input {
   width: 40%;
+  line-height: 44px;
+  padding: 4px;
+  font-size: 20px;
+  margin: 10px;
+  border: 0;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+
+input::placeholder{
+  color: white;
 }
 
 
